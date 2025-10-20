@@ -1,0 +1,8 @@
+C:\Users\PC\Desktop\сонено для коледжа\коды\practicaOOP\practicaOOP\bin\Debug\practicaOOP.exe.config
+C:\Users\PC\Desktop\сонено для коледжа\коды\practicaOOP\practicaOOP\bin\Debug\practicaOOP.exe
+C:\Users\PC\Desktop\сонено для коледжа\коды\practicaOOP\practicaOOP\bin\Debug\practicaOOP.pdb
+C:\Users\PC\Desktop\сонено для коледжа\коды\practicaOOP\practicaOOP\obj\Debug\task1.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\сонено для коледжа\коды\practicaOOP\practicaOOP\obj\Debug\task1.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\сонено для коледжа\коды\practicaOOP\practicaOOP\obj\Debug\practicaOOP.exe
+C:\Users\PC\Desktop\сонено для коледжа\коды\practicaOOP\practicaOOP\obj\Debug\practicaOOP.pdb
+C:\Users\PC\Desktop\сонено для коледжа\коды\practicaOOP\practicaOOP\obj\Debug\practicaOOP.exe.config
