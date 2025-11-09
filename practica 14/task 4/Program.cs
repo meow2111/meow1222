@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace task4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Shape[] shapes = { new Circule(), new Triangle() };
+
+            foreach (var s in shapes)
+            {
+                s.Draw();
+            }
+
+            Console.ReadLine();
+        }
+    }
+}

@@ -1,0 +1,8 @@
+C:\Users\PC\Desktop\сонено для коледжа\коды\practica 14\task 4\bin\Debug\task 4.exe.config
+C:\Users\PC\Desktop\сонено для коледжа\коды\practica 14\task 4\bin\Debug\task 4.exe
+C:\Users\PC\Desktop\сонено для коледжа\коды\practica 14\task 4\bin\Debug\task 4.pdb
+C:\Users\PC\Desktop\сонено для коледжа\коды\practica 14\task 4\obj\Debug\task4.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\сонено для коледжа\коды\practica 14\task 4\obj\Debug\task4.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\сонено для коледжа\коды\practica 14\task 4\obj\Debug\task 4.exe
+C:\Users\PC\Desktop\сонено для коледжа\коды\practica 14\task 4\obj\Debug\task 4.pdb
+C:\Users\PC\Desktop\сонено для коледжа\коды\practica 14\task 4\obj\Debug\task 4.exe.config
