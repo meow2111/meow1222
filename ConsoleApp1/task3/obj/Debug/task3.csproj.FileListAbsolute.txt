@@ -1,0 +1,7 @@
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\task3\bin\Debug\task3.exe.config
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\task3\bin\Debug\task3.exe
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\task3\bin\Debug\task3.pdb
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\task3\obj\Debug\task3.csproj.AssemblyReference.cache
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\task3\obj\Debug\task3.exe
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\task3\obj\Debug\task3.pdb

@@ -1,0 +1,7 @@
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\ConsoleApp1\obj\Debug\task1.csproj.AssemblyReference.cache
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\ConsoleApp1\obj\Debug\task1.csproj.CoreCompileInputs.cache
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Users\User1\Desktop\сонены работы по программированию\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
