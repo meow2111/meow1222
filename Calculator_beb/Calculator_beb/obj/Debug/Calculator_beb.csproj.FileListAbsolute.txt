@@ -1,0 +1,10 @@
+D:\Калькулятор\Calculator_beb\Calculator_beb\bin\Debug\Calculator_beb.exe.config
+D:\Калькулятор\Calculator_beb\Calculator_beb\bin\Debug\Calculator_beb.exe
+D:\Калькулятор\Calculator_beb\Calculator_beb\bin\Debug\Calculator_beb.pdb
+D:\Калькулятор\Calculator_beb\Calculator_beb\obj\Debug\Calculator_beb.csproj.AssemblyReference.cache
+D:\Калькулятор\Calculator_beb\Calculator_beb\obj\Debug\Calculator_beb.Form1.resources
+D:\Калькулятор\Calculator_beb\Calculator_beb\obj\Debug\Calculator_beb.Properties.Resources.resources
+D:\Калькулятор\Calculator_beb\Calculator_beb\obj\Debug\Calculator_beb.csproj.GenerateResource.cache
+D:\Калькулятор\Calculator_beb\Calculator_beb\obj\Debug\Calculator_beb.csproj.CoreCompileInputs.cache
+D:\Калькулятор\Calculator_beb\Calculator_beb\obj\Debug\Calculator_beb.exe
+D:\Калькулятор\Calculator_beb\Calculator_beb\obj\Debug\Calculator_beb.pdb
