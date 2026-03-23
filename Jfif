@@ -1,0 +1,116 @@
+using System;
+
+namespace NumberBaseCalculator
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("=== Калькулятор систем счисления (до 36) ===\n");
+            
+            while (true)
+            {
+                try
+                {
+                    // Ввод исходной системы счисления
+                    Console.Write("Введите исходную систему счисления (2-36): ");
+                    int fromBase = int.Parse(Console.ReadLine());
+                    
+                    if (fromBase < 2 || fromBase > 36)
+                    {
+                        Console.WriteLine("Ошибка! Система счисления должна быть от 2 до 36.\n");
+                        continue;
+                    }
+                    
+                    // Ввод числа
+                    Console.Write($"Введите число в {fromBase}-й системе: ");
+                    string number = Console.ReadLine().ToUpper();
+                    
+                    // Проверка корректности введенного числа
+                    if (!IsValidNumber(number, fromBase))
+                    {
+                        Console.WriteLine("Ошибка! Число содержит недопустимые символы для данной системы счисления.\n");
+                        continue;
+                    }
+                    
+                    // Ввод целевой системы счисления
+                    Console.Write("Введите целевую систему счисления (2-36): ");
+                    int toBase = int.Parse(Console.ReadLine());
+                    
+                    if (toBase < 2 || toBase > 36)
+                    {
+                        Console.WriteLine("Ошибка! Система счисления должна быть от 2 до 36.\n");
+                        continue;
+                    }
+                    
+                    // Конвертация
+                    string result = ConvertBase(number, fromBase, toBase);
+                    
+                    // Вывод результата
+                    Console.WriteLine($"\nРезультат: {number} ({fromBase}) = {result} ({toBase})\n");
+                    
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Ошибка! Введите корректное число.\n");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка! {ex.Message}\n");
+                }
+                
+                // Запрос на продолжение
+                Console.Write("Хотите продолжить? (y/n): ");
+                string choice = Console.ReadLine().ToLower();
+                if (choice != "y" && choice != "yes")
+                {
+                    break;
+                }
+                Console.WriteLine();
+            }
+            
+            Console.WriteLine("\nПрограмма завершена. Нажмите любую клавишу для выхода...");
+            Console.ReadKey();
+        }
+        
+        // Проверка корректности числа для заданной системы счисления
+        static bool IsValidNumber(string number, int baseSystem)
+        {
+            foreach (char c in number)
+            {
+                int value = CharToValue(c);
+                if (value < 0 || value >= baseSystem)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+        
+        // Преобразование символа в числовое значение (0-35)
+        static int CharToValue(char c)
+        {
+            if (c >= '0' && c <= '9')
+            {
+                return c - '0';
+            }
+            else if (c >= 'A' && c <= 'Z')
+            {
+                return c - 'A' + 10;
+            }
+            return -1;
+        }
+        
+        // Преобразование числового значения в символ (0-35)
+        static char ValueToChar(int value)
+        {
+            if (value >= 0 && value <= 9)
+            {
+                return (char)('0' + value);
+            }
+            else if (value >= 10 && value <= 35)
+            {
+                return (char)('A' + value - 10);
+            }
+            return '?';
+        }
